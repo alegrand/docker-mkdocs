@@ -44,6 +44,8 @@ RUN apt-get update && \
     libnss3 \ 
     lsb-release \ 
     xdg-utils \ 
+    pandoc \
+    make \
     wget \
     git && \
     apt-get clean && \
